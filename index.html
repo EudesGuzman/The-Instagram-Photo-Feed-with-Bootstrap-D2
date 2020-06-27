@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+
+
+</head>
+
+<body>
+	<div class="container-fluid px-0">
+
+
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li> <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</li>
+				</ul>
+
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                    Create a new post
+                    </button>
+				<nav class="navbar navbar-expand-lg navbar-light bg-light mr-5">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<!-- icon conf-->
+									<i class="fa fa-cog" aria-hidden="true"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Action</a>
+									<a class="dropdown-item" href="#">Another action</a>
+									<a class="dropdown-item" href="#">Something else here</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Log Out</a>
+								</div>
+							</li>
+
+						</ul>
+
+					</div>
+				</nav>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header border-0">
+								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+							</div>
+							<div class="modal-body pt-0">
+								<button type="button" class="btn btn-outline-secondary"><i class="fa fa-camera" aria-hidden="true"></i></button>
+								<button type="button" class="btn btn-outline-secondary"><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+
+
+
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancel</button>
+								<button type="button" class="btn btn-success">Publish</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+
+<!--        COPIA SEGURIDAD POST INSTAGARM
+		<div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">01/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+<div class="row justify-content-center" id="btnContainer">
+
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa fa-th"></i></a>
+    </li>
+    <li class="nav-item" role="presentation">
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa fa-square" aria-hidden="true"></i></a>
+    </li>
+    </ul>
+
+</div>
+
+
+
+<!-- CONTENIDO PILLS-->
+<div class="tab-content" id="myTabContent">
+
+<!-- PILLS 1 -->
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+        <div class="row">
+            <div class="col-4">
+                <img src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="imagen">
+            </div>
+            <div class="col-4">
+                <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="imagen">
+            </div>
+            <div class="col-4">
+                <img src="https://images.pexels.com/photos/733475/pexels-photo-733475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="imagen">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="imagen">
+            </div>
+            <div class="col-4">
+                <img src="https://images.pexels.com/photos/531321/pexels-photo-531321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="imagen">
+            </div>
+            <div class="col-4">
+                <img src="https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="imagen">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="https://images.pexels.com/photos/460775/pexels-photo-460775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="imagen">
+            </div>
+            <div class="col-4">
+                <img src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="imagen">
+            </div>
+            <div class="col-4">
+                <img src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="imagen">
+            </div>
+        </div>
+
+
+
+  </div> <!-- / PILLS 1 -->
+
+<!-- PILLS 2 -->
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    
+     <!-- CONTENIDO PILLS 2-->
+<div class="row">
+
+    <div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">01/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+</div>
+  <div class="row">
+    <div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">02/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+  </div>
+   <div class="row">
+    <div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">03/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/733475/pexels-photo-733475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+  </div>
+
+
+
+  <div class="row">
+
+    <div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">04/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+</div>
+  <div class="row">
+    <div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">05/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/531321/pexels-photo-531321.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+  </div>
+   <div class="row">
+    <div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">06/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+  </div>
+
+
+
+
+
+  <div class="row">
+
+    <div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">07/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/460775/pexels-photo-460775.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+</div>
+  <div class="row">
+    <div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">08/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+  </div>
+   <div class="row">
+    <div class="card" style="width: 30rem;">
+			<div class="row">
+				<div class="col-auto mr-auto pl-4">My First Video</div>
+				<div class="col-auto pr-4">09/14</div>
+			</div>
+			<img class="card-img-top" src="https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title">23 Likes</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra leo quis feugiat tincidunt.</p>
+
+				<div class="row">
+				<div class="col-auto mr-auto">
+                    <i class="fa fa-heart" aria-hidden="true"></i> &nbsp; <span>Comment...</span>
+                    
+                </div>
+				<div class="col-auto"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+			</div>
+			</div>
+		</div>
+  </div>
+
+
+
+</div> <!-- / PILLS 2-->
+  
+  
+ 
+</div> <!-- /CONTENIDO PILLS-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+		</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+		</script>
+</body>
+
+</html>
